@@ -135,3 +135,14 @@ button:focus-visible {
   margin-right: auto;
   color: gray;
 }
+.add-new-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.add-new-form input,
+.add-new-form textarea {
+  margin-left: 40px;
+}
