@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Header from "../components/Header";
 import BeerCard from "../components/BeerCard";
 
 export default function Beers() {
@@ -22,7 +21,6 @@ export default function Beers() {
 
   return (
     <div>
-      <Header />
       {beers.map((beer) => {
         return <BeerCard beer={beer} />;
       })}
