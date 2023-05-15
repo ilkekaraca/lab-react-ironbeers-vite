@@ -80,3 +80,14 @@ button:focus-visible {
   justify-content: center;
   max-width: 400px;
 }
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  font-size: 22px;
+}
